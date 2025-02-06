@@ -29,7 +29,7 @@
 
             <!--Banner superior-->
             <nav class="banner">
-                <a href="main.php">💙🤍BLANQUITA MELIPILLA🤍💙</a>
+                <a href="main.php"><strong>💙🤍BLANQUITA MELIPILLA🤍💙</strong></a>
             </nav>
 
 
@@ -37,16 +37,22 @@
 
         <!--SECCIÓN: MENÚ-->
 
-             <div class="dropdown">
-                <button class="dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="img/img1_icono_categoria.png" alt="" width="50" height="50"><strong>CATEGORÍAS</strong>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><button class="dropdown-item" type="button">Platos</button></li>
-                    <li><button class="dropdown-item" type="button">Canastas</button></li>
-                    <li><button class="dropdown-item" type="button">Cajas</button></li>
-                </ul>
-            </div>
+          <!--Menú desplegable-->
+          <div class="dropdown">
+
+            <!--Botón desplegable-->
+            <button class="dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/img1_icono_categoria.png" alt="" width="50" height="50"><strong>CATEGORÍAS</strong>
+            </button>
+            
+            <!--Opciones Menú desplegable-->
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><strong>PLATOS</strong></button></li>
+                <li><button class="dropdown-item" type="button"><strong>CANASTAS</strong></button></li>
+                <li><button class="dropdown-item" type="button"><strong>CAJAS</strong></button></li>
+            </ul>
+
+          </div>
 
 
         <!--SECCIÓN: BARRA DE BÚSQUEDA-->
@@ -63,35 +69,7 @@
             </div>
 
         </div>
-
-        <!--SECCIÓN: CATÁLOGO-->
-
-            <div class="catalogo">
-                <div class="card" id="producto-container">
-                    <h5 class="card-title">Platos de cartón N°2</h5>
-                    <img src="img/Platos de cartón N°2.jpg" class="card-img-top" alt="...">
-                    <p class="card-text" id="precio-unitario"><strong>$29</strong> c/u</p>
-                    <p class="card-text" id="precio-x-mayor">Precio por mayor: <strong>$26</strong></p>
-                    <small><strong>PRODUCTO DISPONIBLE</strong></small>
-                </div>
-                <div class="card" id="producto-container">
-                    <h5 class="card-title">Caja para pizza individual</h5>
-                    <img src="img/Caja para pizza individual.jpg" class="card-img-top" alt="...">
-                    <p class="card-text" id="precio-unitario"><strong>$110</strong> c/u</p>
-                    <p class="card-text" id="precio-x-mayor">Precio por mayor: <strong>$105</strong></p>
-                    <small style="color: whitesmoke"><strong>PRODUCTO NO DISPONIBLE</strong></small>
-                </div>
-                <div class="card" id="producto-container">
-                    <h5 class="card-title">Canasta para salchipapas N°1</h5>
-                    <img src="img/Canasta para salchipapas N°1.jpg" class="card-img-top" alt="...">
-                    <p class="card-text" id="precio-unitario"><strong>$35</strong> c/u</p>
-                    <p class="card-text" id="precio-x-mayor">Precio por mayor: <strong>$29</strong></p>
-                    <small><strong>PRODUCTO DISPONIBLE</strong></small>
-                </div>
-            </div>
-       
-
-
+     
     <!--**Link archivo JS**-->
         <script src=""></script>
 
