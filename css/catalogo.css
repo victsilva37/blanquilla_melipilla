@@ -56,6 +56,119 @@
         color: aqua;
     }
 
+
+/*DISEÑO RESPONSIVO*/
+
+    @media screen and (max-width: 1200px) {
+        /* Para pantallas grandes y medianas */
+        .catalogo {
+            width: 90%;
+        }
+    
+        #producto-container {
+            width: 45%;
+        }
+    
+        #producto-container>h5 {
+            font-size: 20px;
+        }
+    
+        #producto-container>#precio-unitario {
+            font-size: 30px;
+        }
+    
+        #producto-container>#precio-x-mayor {
+            font-size: 18px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        /* Para tabletas */
+        .catalogo {
+            width: 100%;
+        }
+    
+        #producto-container {
+            width: 48%;
+        }
+    
+        #producto-container>h5 {
+            font-size: 18px;
+        }
+    
+        #producto-container>#precio-unitario {
+            font-size: 22px;
+        }
+    
+        #producto-container>#precio-x-mayor {
+            font-size: 16px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        /* Para pantallas pequeñas (móviles) */
+        .catalogo {
+            width: 100%;
+            justify-content: center;
+        }
+    
+        #producto-container {
+            width: 90%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+    
+        #producto-container>h5 {
+            font-size: 16px;
+        }
+    
+        #producto-container>#precio-unitario {
+            font-size: 20px;
+        }
+    
+        #producto-container>#precio-x-mayor {
+            font-size: 14px;
+        }
+    
+        /* Mejorar la disposición de los productos en móviles */
+        #producto-container>img {
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+    
+    /* Estilos para hacer que parezca una aplicación */
+    @media screen and (max-width: 480px) {
+        /* Para dispositivos móviles */
+        body {
+            background-color: #f4f4f4;
+        }
+    
+        .catalogo {
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+    
+        #producto-container {
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+    
+        #producto-container:hover {
+            transform: none; /* El hover se elimina en móviles para que sea más sencillo */
+        }
+    
+        #producto-container>h5,
+        #producto-container>#precio-unitario,
+        #producto-container>#precio-x-mayor,
+        #producto-container>small {
+            margin-bottom: 10px;
+        }
+    }
 /*--------------------------------------------------------------------------------------
   ------------------------------Fin Catalogo .CSS---------------------------------------
   --------------------------------------------------------------------------------------*/
