@@ -29,7 +29,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link archivo CSS-->
-    <link rel="stylesheet" href="css/admin/inicio/adm_banner.css">
+    <link rel="stylesheet" href="css/admin/banner.css">
   </head>
 
   <body>
@@ -54,7 +54,7 @@
             if (isset($_GET['opcion'])) {
               switch ($_GET['opcion']) {
                   case 'inicio':
-                      $contenido = 'php/admin/inicio/adm_ini_principal.php';
+                      $contenido = 'php/admin/inicio/ini_principal.php';
           
               }
             }
@@ -70,7 +70,7 @@
 
 
             <!--Opción: CATEGORÍAS-->
-            <button class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="dropdown-toggle" aria-expanded="false">
                 <img src="img/img1_icono_categoria.png" alt="" width="50" height="50"><strong>CATEGORÍAS</strong>
             </button>
 
@@ -96,7 +96,7 @@
                     if (isset($_GET['opcion'])) {
                       switch ($_GET['opcion']) {
                           case 'gestion-productos':
-                              $contenido = 'php/admin/gestion/adm_ges_principal.php';
+                              $contenido = 'php/admin/gestion/ges_principal.php';
                   
                       }
                     }
@@ -108,17 +108,10 @@
           <!--SECCIÓN: BARRA DE BÚSQUEDA-->
 
           <div class="input-group" id="search-bar">
-                <form action="main.php" method="get">
-                  <input type="text" name="search" class="form-control" placeholder="Buscar">
-                    <!-- <select class="form-select" id="inputGroupSelect04">
-                        <option selected >Choose...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select> -->
-                  <button class="btn btn-outline-secondary" type="submit"><img src="img/img2_icono_buscar.png" alt=""></button>
-                </form>
-
+              <form action="main.php" method="get">
+                <input type="text" name="search" class="form-control" placeholder="Buscar">
+                <button class="btn btn-outline-secondary" type="submit"><img src="img/img2_icono_buscar.png" alt=""></button>
+              </form>
           </div>
 
     </div>

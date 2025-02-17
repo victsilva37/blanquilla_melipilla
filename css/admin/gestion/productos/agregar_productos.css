@@ -1,0 +1,65 @@
+/*
+- Envases y Troquelados: BLANQUITA MELIPILLA
+- Sitio web: https://www.blanquita_melipilla.com
+- Desarrollador: DeV37
+*/
+
+/*--------------------------------------------------------------------------------------
+  ------------------------------Inicio agregar_productos .CSS---------------------------
+  --------------------------------------------------------------------------------------*/
+
+
+#form-productos{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+
+#form-productos>input{ 
+    width: 100%;
+    font-size: 15px;
+}
+
+
+/*Campo: NOMBRE DEL PRODUCTO*/
+
+  /*Sin contenido*/
+
+
+/*Campo: IMAGEN DEL PRODUCTO*/
+
+  /*Sin contenido*/
+
+
+/*Campo: PRECIO UNITARIO*/
+
+  /*Sin contenido*/
+
+
+/*Campo: PRODUCTO DISPONIBLE*/
+
+  /*Sin contenido*/
+  
+
+/*SECCIÓN: BOTONES*/
+
+  .botones {
+    padding: 10px;
+  }
+
+    .botones>button{
+      width: 100%;
+      font-size: 18px;
+    }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------
+  ------------------------------Fin agregar_productos .CSS------------------------------
+  --------------------------------------------------------------------------------------*/

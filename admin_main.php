@@ -38,7 +38,7 @@
 
     <!--**Estructura del componente PHP**-->
 
-        <?php include 'php/admin/adm_banner.php'?>
+        <?php include 'php/admin/banner.php'?>
 
 
 

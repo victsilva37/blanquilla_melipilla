@@ -29,7 +29,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link archivo CSS-->
-    <link rel="stylesheet" href="css/admin/inicio/adm_catalogo.css">
+    <link rel="stylesheet" href="css/admin/inicio/ver_catalogo.css">
   </head>
 
   <body>

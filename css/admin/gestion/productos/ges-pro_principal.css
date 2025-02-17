@@ -1,0 +1,31 @@
+/*
+- Envases y Troquelados: BLANQUITA MELIPILLA
+- Sitio web: https://www.blanquita_melipilla.com
+- Desarrollador: DeV37
+*/
+
+/*--------------------------------------------------------------------------------------
+  ------------------------------Inicio ges-pro_principal .CSS---------------------------
+  --------------------------------------------------------------------------------------*/
+
+.ges-pro-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+    /*SECCIÓN: AGREGAR PRODUCTOS*/
+
+        .agregar-productos-container{
+            width: 30%;
+            border: 4px solid #5271FF;
+        }
+
+/*--------------------------------------------------------------------------------------
+  ------------------------------Fin ges-pro_principal .CSS------------------------------
+  --------------------------------------------------------------------------------------*/
+
+/*
+- Envases y Troquelados: BLANQUITA MELIPILLA
+- Sitio web: https://www.blanquita_melipilla.com
+- Desarrollador: DeV37
+*/
